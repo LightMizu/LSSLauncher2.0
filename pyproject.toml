@@ -1,0 +1,22 @@
+[project]
+name = "lsslauncher"
+version = "2.0.0"
+description = ""
+authors = [
+    {name = "LightMizu",email = "1blend.your.life1@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "pywebapi (>=0.1a6,<0.2)",
+    "pythonnet (>=3,<4)",
+    "pywebview (>=6.1,<7.0)",
+    "qtpy (>=2.4.3,<3.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "lsslauncher2", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
