@@ -11,7 +11,9 @@ dependencies = [
     "pywebapi (>=0.1a6,<0.2)",
     "pythonnet (>=3,<4)",
     "pywebview (>=6.1,<7.0)",
-    "qtpy (>=2.4.3,<3.0.0)"
+    "qtpy (>=2.4.3,<3.0.0)",
+    "httpx (>=0.28.1,<0.29.0)",
+    "loguru (>=0.7.3,<0.8.0)"
 ]
 
 [tool.poetry]
